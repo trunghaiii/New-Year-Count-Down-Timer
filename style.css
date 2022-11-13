@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&family=Open+Sans:ital,wght@0,300;1,300&display=swap');
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: url("cover.jpg");
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.countdown-container{
+    display: flex;
+    justify-content: center;
+    /* flex-direction: row; */
+}
+.countdown-container div{
+    margin-right: 30px;
+    line-height: 3px;
+}
+
+.countdown-container p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 80px;
+}
